@@ -1,5 +1,11 @@
 # Day 7 — Agentic RAG
 
+**Bài nộp của Nguyễn Thị Thùy Dung · 2A202603552 · L3A**
+
+- [Báo cáo cá nhân, phân tích lỗi và hướng dẫn tái lập](report/individual/2A202603552_NguyenThiThuyDung.md)
+- [Benchmark 24 câu](data/cases.json) · [43 đoạn SENSOR001](data/chunks.json) · [Nguồn và quyền sử dụng](data/README.md)
+- [Code retrieval](starter/experiment.py) · [Agent Gemini](starter/gemini_agent.py) · [Traces, nhãn và bảng điểm](report/results/)
+
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.

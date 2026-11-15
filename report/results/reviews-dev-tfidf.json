@@ -1,0 +1,118 @@
+[
+  {
+    "query_id": "SQ01",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đoạn được dẫn xác nhận: Thành thông tin."
+  },
+  {
+    "query_id": "SQ02",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Từ chối dù corpus có đáp án: Theo nguyên lý chuyển đổi, dạng kích thích, tính năng, phạm vi sử dụng và thông số mạch thay thế."
+  },
+  {
+    "query_id": "SQ03",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đoạn được dẫn xác nhận: Cảm biến tích cực và cảm biến thụ động."
+  },
+  {
+    "query_id": "SQ04",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đoạn được dẫn xác nhận: Quan hệ giữa đáp ứng và kích thích."
+  },
+  {
+    "query_id": "SQ05",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đoạn được dẫn xác nhận: Đại lượng đầu ra S và đại lượng đo đầu vào M."
+  },
+  {
+    "query_id": "SQ06",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Từ chối dù corpus có đáp án: Sự thay đổi của nhiệt độ."
+  },
+  {
+    "query_id": "SQ07",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Từ chối dù corpus có đáp án: Phát ra hoặc phát hiện bức xạ hồng ngoại."
+  },
+  {
+    "query_id": "SQ08",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Từ chối dù corpus có đáp án: Thành phần hơi nước."
+  },
+  {
+    "query_id": "SQ09",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đoạn được dẫn xác nhận: Sử dụng vi sóng để phát hiện sự thay đổi trong môi trường."
+  },
+  {
+    "query_id": "SQ10",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Từ chối dù corpus có đáp án: Sự thay đổi chất lượng không khí và khí độc hại."
+  },
+  {
+    "query_id": "SQ11",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Từ chối dù corpus có đáp án: Có khói và nồng độ khói."
+  },
+  {
+    "query_id": "SQ12",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đoạn được dẫn xác nhận: Trong chất khí và chất lỏng."
+  },
+  {
+    "query_id": "SQ13",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đoạn được dẫn xác nhận: Gia tốc."
+  },
+  {
+    "query_id": "SQ14",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Từ chối dù corpus có đáp án: Để tín hiệu đầu ra phù hợp với bộ xử lý tín hiệu."
+  },
+  {
+    "query_id": "SQ15",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Từ chối dù corpus có đáp án: Khuếch đại tín hiệu cảm biến."
+  },
+  {
+    "query_id": "SQ_UNANS_DEV_01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Từ chối rõ ràng và không thêm khẳng định thiếu căn cứ."
+  },
+  {
+    "query_id": "SQ_UNANS_DEV_02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Từ chối rõ ràng và không thêm khẳng định thiếu căn cứ."
+  }
+]

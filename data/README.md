@@ -7,3 +7,9 @@ Các file `example_*.json` chỉ minh họa định dạng, không đủ để n
 - **Câu thiếu evidence:** `id`, `split`, `question`, `answerable: false`, `expected_behavior: "search_and_abstain"`, `absence_reason`. Xem `agent_cases_example.json`.
 
 Không đưa `gold` hoặc nhãn đáp án vào model và retrieval tool. Ghi nguồn dữ liệu và quyền sử dụng. Cách chuyển một số định dạng Day 6: [starter/README.md](../starter/README.md).
+
+## Nguồn của bộ SENSOR001
+
+Chương II về xử lý dữ liệu cảm biến do giảng viên cung cấp. Học viên đã ghi nhận quyền công khai trong [hồ sơ Day 6](https://github.com/Dunnguyn/K5-L3A-Day06-NguyenThiThuyDung-2A202603552-DataIngestionEngineering/blob/main/STUDENT.md). Đường dẫn PDF trong trace tính từ gốc repo Day 6. Để chạy Day 7 chỉ cần ba tệp chunks.json, questions.json và cases.json trong thư mục này.
+
+Khi có repo Day 6 nằm cạnh repo này, chạy `python scripts/prepare_data.py --output starter/results/day6-export` để xuất lại từ chunks_b.jsonl và sensor_questions.json. Bản benchmark đã chạy có hai sai khác so với bản xuất gốc. Ở trang 42, đoạn kết thúc bằng ID 0_393 thừa chữ “Kh” trước “khả năng sai sót cao”. Đoạn 393_547 cùng trang được gán nhầm trang 39. Giữ bản benchmark trong Git để kiểm chứng trace cũ. Bản xuất lại dùng nội dung và số trang từ Day 6.

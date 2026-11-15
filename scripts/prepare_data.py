@@ -1,4 +1,5 @@
 """Script to prepare Day 7 data and benchmark from Day 6 outputs."""
+import argparse
 import json
 import re
 import sys
@@ -11,13 +12,11 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from starter.baseline import validate
 
-DAY6_ROOT = Path("../K5-L3A-Day06-NguyenThiThuyDung-2A202603552-DataIngestionEngineering")
+DAY6_ROOT = PROJECT_ROOT.parent / Path("K5-L3A-Day06-NguyenThiThuyDung-2A202603552-DataIngestionEngineering")
 DAY6_CHUNKS_PATH = DAY6_ROOT / "starter/results/sensor_run/dev/chunks_b.jsonl"
 DAY6_QUESTIONS_PATH = DAY6_ROOT / "starter/benchmark/sensor_questions.json"
 
-SCRATCH_DIR = Path(r"C:\Users\Admin\.gemini\antigravity-cli\brain\306d7ff2-5e04-4b1f-a6cd-f9cd0641a583\scratch")
-SCRATCH_DIR.mkdir(parents=True, exist_ok=True)
-DATA_DIR = SCRATCH_DIR
+
 
 
 def load_day6_chunks():
@@ -123,6 +122,10 @@ def create_unanswerable_questions():
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=Path, required=True, help="Directory for the regenerated Day 6 export")
+    output = parser.parse_args().output
+    output.mkdir(parents=True, exist_ok=True)
     print("1. Loading chunks from Day 6...")
     chunks = load_day6_chunks()
     print(f"   Loaded {len(chunks)} chunks.")
@@ -140,12 +143,12 @@ def main():
     print(f"   Created {len(unans_questions)} unanswerable questions (2 dev, 2 test).")
     
     # Save chunks.json
-    chunks_file = DATA_DIR / "chunks.json"
+    chunks_file = output / "chunks.json"
     chunks_file.write_text(json.dumps(chunks, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"   Saved {chunks_file} ({len(chunks)} chunks)")
     
     # Save questions.json (20 answerable questions for baseline.py and retrieval evaluation)
-    questions_file = DATA_DIR / "questions.json"
+    questions_file = output / "questions.json"
     questions_file.write_text(json.dumps(answerable_questions, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"   Saved {questions_file} ({len(answerable_questions)} questions)")
     
@@ -172,7 +175,7 @@ def main():
     test_cases = [c for c in cases if c["split"] == "test"]
     all_cases = dev_cases + test_cases
     
-    cases_file = DATA_DIR / "cases.json"
+    cases_file = output / "cases.json"
     cases_file.write_text(json.dumps(all_cases, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"   Saved {cases_file} ({len(all_cases)} total cases: {len(dev_cases)} dev, {len(test_cases)} test)")
     

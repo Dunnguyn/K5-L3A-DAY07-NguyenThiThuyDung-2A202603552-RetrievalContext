@@ -1,0 +1,9 @@
+{
+  "config": "rrf-wide",
+  "criteria": [
+    "context_hit",
+    "hit3",
+    "hit1",
+    "lowest median_ms"
+  ]
+}

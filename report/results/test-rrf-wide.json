@@ -1,0 +1,367 @@
+[
+  {
+    "query_id": "SQ16",
+    "split": "test",
+    "question": "Lọc nhiễu tín hiệu analog nhằm giúp hệ thống hoạt động thế nào?",
+    "strategy": "rrf",
+    "top_k": 3,
+    "budget_chars": 3200,
+    "gold": [
+      {
+        "source_id": "SENSOR001",
+        "page": 34,
+        "evidence": "giúp hệ thống chạy ổn định, chính xác"
+      }
+    ],
+    "results": [
+      {
+        "id": "SENSOR001_p34_paragraph_tokens_88af4db95038d4b2_0_345",
+        "source_id": "SENSOR001",
+        "source": "starter/data/documents.pdf",
+        "page": 34,
+        "text": "2.2. KHUẾCH ĐẠI, LỌC VÀ XỬ LÝ TÍN HIỆU\n34\n Lọc nhiễu cho tín hiệu cảm biến\n Khi tín hiệu bị nhiễu gây khó khăn trong việc điều khiển và\ngiám sát.\n Sử dụng bộ lọc nhiễu để khắc phục các nhiễu trong tín\nhiệu analog, giúp hệ thống chạy ổn định, chính xác.\n Các tín hiệu truyền về theo chuẩn công nghiệp hiện nay\nchủ yếu là dùng tín hiệu 4-20mA.",
+        "metadata": {
+          "section": "2.2 Khuếch đại, lọc và xử lý tín hiệu",
+          "start_char": 0,
+          "end_char": 345
+        },
+        "score": 0.03278688524590164,
+        "strategy": "rrf",
+        "hit": true
+      },
+      {
+        "id": "SENSOR001_p36_paragraph_tokens_3d2493897d766e7a_0_342",
+        "source_id": "SENSOR001",
+        "source": "starter/data/documents.pdf",
+        "page": 36,
+        "text": "2.3. CHUYỂN ĐỔI ADC, DAC\n Nhiều cảm biến trong IoT tạo ra tín hiệu analog dưới\ndạng điện áp. Tuy nhiên, để các thiết bị kỹ thuật số như\nvi điều khiển, máy tính hoặc hệ thống AI hiểu và phân\ntích được, tín hiệu này cần được chuyển đổi sang dạng\nsố.\n Chuyển đổi ADC (Analog-to-Digital Converter) giúp kết\nnối thế giới vật lý với thế giới số. ",
+        "metadata": {
+          "section": "2.3 Chuyển đổi ADC, DAC",
+          "start_char": 0,
+          "end_char": 342
+        },
+        "score": 0.03225806451612903,
+        "strategy": "rrf",
+        "hit": false
+      },
+      {
+        "id": "SENSOR001_p39_paragraph_tokens_1393ec75cf0b4ee8_0_272",
+        "source_id": "SENSOR001",
+        "source": "starter/data/documents.pdf",
+        "page": 39,
+        "text": "2.3. CHUYỂN ĐỔI ADC, DAC\n Việc chuyển đổi tín hiệu tương tự sang tín hiệu số và\nngược lại dùng ADC và DAC. Hai tín hiệu này được xử\nlý để điều khiển cơ cấu chấp hành trong hệ thống tự\nđộng thông qua module của bộ điều khiển tương ứng.\n39\nModule Chuyển Đổi ADC DAC PCF8591",
+        "metadata": {
+          "section": "2.3 Chuyển đổi ADC, DAC",
+          "start_char": 0,
+          "end_char": 272
+        },
+        "score": 0.03055037313432836,
+        "strategy": "rrf",
+        "hit": false
+      }
+    ],
+    "context": "[SENSOR001_p34_paragraph_tokens_88af4db95038d4b2_0_345 | starter/data/documents.pdf | page 34]\n2.2. KHUẾCH ĐẠI, LỌC VÀ XỬ LÝ TÍN HIỆU\n34\n Lọc nhiễu cho tín hiệu cảm biến\n Khi tín hiệu bị nhiễu gây khó khăn trong việc điều khiển và\ngiám sát.\n Sử dụng bộ lọc nhiễu để khắc phục các nhiễu trong tín\nhiệu analog, giúp hệ thống chạy ổn định, chính xác.\n Các tín hiệu truyền về theo chuẩn công nghiệp hiện nay\nchủ yếu là dùng tín hiệu 4-20mA.\n\n[SENSOR001_p36_paragraph_tokens_3d2493897d766e7a_0_342 | starter/data/documents.pdf | page 36]\n2.3. CHUYỂN ĐỔI ADC, DAC\n Nhiều cảm biến trong IoT tạo ra tín hiệu analog dưới\ndạng điện áp. Tuy nhiên, để các thiết bị kỹ thuật số như\nvi điều khiển, máy tính hoặc hệ thống AI hiểu và phân\ntích được, tín hiệu này cần được chuyển đổi sang dạng\nsố.\n Chuyển đổi ADC (Analog-to-Digital Converter) giúp kết\nnối thế giới vật lý với thế giới số. \n\n[SENSOR001_p39_paragraph_tokens_1393ec75cf0b4ee8_0_272 | starter/data/documents.pdf | page 39]\n2.3. CHUYỂN ĐỔI ADC, DAC\n Việc chuyển đổi tín hiệu tương tự sang tín hiệu số và\nngược lại dùng ADC và DAC. Hai tín hiệu này được xử\nlý để điều khiển cơ cấu chấp hành trong hệ thống tự\nđộng thông qua module của bộ điều khiển tương ứng.\n39\nModule Chuyển Đổi ADC DAC PCF8591",
+    "context_ids": [
+      "SENSOR001_p34_paragraph_tokens_88af4db95038d4b2_0_345",
+      "SENSOR001_p36_paragraph_tokens_3d2493897d766e7a_0_342",
+      "SENSOR001_p39_paragraph_tokens_1393ec75cf0b4ee8_0_272"
+    ],
+    "context_chars": 1248,
+    "elapsed_ms": 45.91359998448752,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "SQ17",
+    "split": "test",
+    "question": "Trong phần chuyển đổi ADC, DAC, ADC biến đổi tín hiệu theo chiều nào?",
+    "strategy": "rrf",
+    "top_k": 3,
+    "budget_chars": 3200,
+    "gold": [
+      {
+        "source_id": "SENSOR001",
+        "page": 36,
+        "evidence": "chuyển đổi tín hiệu tương tự – như nhiệt độ, ánh sáng,\nâm thanh, áp suất… – thành tín hiệu số"
+      }
+    ],
+    "results": [
+      {
+        "id": "SENSOR001_p39_paragraph_tokens_1393ec75cf0b4ee8_0_272",
+        "source_id": "SENSOR001",
+        "source": "starter/data/documents.pdf",
+        "page": 39,
+        "text": "2.3. CHUYỂN ĐỔI ADC, DAC\n Việc chuyển đổi tín hiệu tương tự sang tín hiệu số và\nngược lại dùng ADC và DAC. Hai tín hiệu này được xử\nlý để điều khiển cơ cấu chấp hành trong hệ thống tự\nđộng thông qua module của bộ điều khiển tương ứng.\n39\nModule Chuyển Đổi ADC DAC PCF8591",
+        "metadata": {
+          "section": "2.3 Chuyển đổi ADC, DAC",
+          "start_char": 0,
+          "end_char": 272
+        },
+        "score": 0.03278688524590164,
+        "strategy": "rrf",
+        "hit": false
+      },
+      {
+        "id": "SENSOR001_p36_paragraph_tokens_3d2493897d766e7a_0_342",
+        "source_id": "SENSOR001",
+        "source": "starter/data/documents.pdf",
+        "page": 36,
+        "text": "2.3. CHUYỂN ĐỔI ADC, DAC\n Nhiều cảm biến trong IoT tạo ra tín hiệu analog dưới\ndạng điện áp. Tuy nhiên, để các thiết bị kỹ thuật số như\nvi điều khiển, máy tính hoặc hệ thống AI hiểu và phân\ntích được, tín hiệu này cần được chuyển đổi sang dạng\nsố.\n Chuyển đổi ADC (Analog-to-Digital Converter) giúp kết\nnối thế giới vật lý với thế giới số. ",
+        "metadata": {
+          "section": "2.3 Chuyển đổi ADC, DAC",
+          "start_char": 0,
+          "end_char": 342
+        },
+        "score": 0.03200204813108039,
+        "strategy": "rrf",
+        "hit": false
+      },
+      {
+        "id": "SENSOR001_p36_paragraph_tokens_3d2493897d766e7a_342_504",
+        "source_id": "SENSOR001",
+        "source": "starter/data/documents.pdf",
+        "page": 36,
+        "text": "ADC có chức năng\nchuyển đổi tín hiệu tương tự – như nhiệt độ, ánh sáng,\nâm thanh, áp suất… – thành tín hiệu số để các vi điều\nkhiển hoặc máy tính có thể xử lý.\n36",
+        "metadata": {
+          "section": "2.3 Chuyển đổi ADC, DAC",
+          "start_char": 342,
+          "end_char": 504
+        },
+        "score": 0.0315136476426799,
+        "strategy": "rrf",
+        "hit": true
+      }
+    ],
+    "context": "[SENSOR001_p39_paragraph_tokens_1393ec75cf0b4ee8_0_272 | starter/data/documents.pdf | page 39]\n2.3. CHUYỂN ĐỔI ADC, DAC\n Việc chuyển đổi tín hiệu tương tự sang tín hiệu số và\nngược lại dùng ADC và DAC. Hai tín hiệu này được xử\nlý để điều khiển cơ cấu chấp hành trong hệ thống tự\nđộng thông qua module của bộ điều khiển tương ứng.\n39\nModule Chuyển Đổi ADC DAC PCF8591\n\n[SENSOR001_p36_paragraph_tokens_3d2493897d766e7a_0_342 | starter/data/documents.pdf | page 36]\n2.3. CHUYỂN ĐỔI ADC, DAC\n Nhiều cảm biến trong IoT tạo ra tín hiệu analog dưới\ndạng điện áp. Tuy nhiên, để các thiết bị kỹ thuật số như\nvi điều khiển, máy tính hoặc hệ thống AI hiểu và phân\ntích được, tín hiệu này cần được chuyển đổi sang dạng\nsố.\n Chuyển đổi ADC (Analog-to-Digital Converter) giúp kết\nnối thế giới vật lý với thế giới số. \n\n[SENSOR001_p36_paragraph_tokens_3d2493897d766e7a_342_504 | starter/data/documents.pdf | page 36]\nADC có chức năng\nchuyển đổi tín hiệu tương tự – như nhiệt độ, ánh sáng,\nâm thanh, áp suất… – thành tín hiệu số để các vi điều\nkhiển hoặc máy tính có thể xử lý.\n36",
+    "context_ids": [
+      "SENSOR001_p39_paragraph_tokens_1393ec75cf0b4ee8_0_272",
+      "SENSOR001_p36_paragraph_tokens_3d2493897d766e7a_0_342",
+      "SENSOR001_p36_paragraph_tokens_3d2493897d766e7a_342_504"
+    ],
+    "context_chars": 1067,
+    "elapsed_ms": 42.75610001059249,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "SQ18",
+    "split": "test",
+    "question": "Ba bước chính của quá trình ADC là gì?",
+    "strategy": "rrf",
+    "top_k": 3,
+    "budget_chars": 3200,
+    "gold": [
+      {
+        "source_id": "SENSOR001",
+        "page": 37,
+        "evidence": "lấy mẫu, lượng tử\nhóa, mã hóa"
+      }
+    ],
+    "results": [
+      {
+        "id": "SENSOR001_p37_paragraph_tokens_3d3e70d04289bb51_0_308",
+        "source_id": "SENSOR001",
+        "source": "starter/data/documents.pdf",
+        "page": 37,
+        "text": "2.3. CHUYỂN ĐỔI ADC, DAC\n Quá trình chuyển đổi ADC gồm ba bước chính: lấy mẫu, lượng tử\nhóa, mã hóa.\n ADC được ứng dụng rộng rãi trong các thiết bị IoT như: cảm biến\nnhiệt độ, độ ẩm, ánh sáng trong nông nghiệp thông minh; hệ thống\ngiám sát môi trường; thiết bị y tế như máy đo nhịp tim, điện tâm đồ,\n...\n37",
+        "metadata": {
+          "section": "2.3 Chuyển đổi ADC, DAC",
+          "start_char": 0,
+          "end_char": 308
+        },
+        "score": 0.03278688524590164,
+        "strategy": "rrf",
+        "hit": true
+      },
+      {
+        "id": "SENSOR001_p39_paragraph_tokens_1393ec75cf0b4ee8_0_272",
+        "source_id": "SENSOR001",
+        "source": "starter/data/documents.pdf",
+        "page": 39,
+        "text": "2.3. CHUYỂN ĐỔI ADC, DAC\n Việc chuyển đổi tín hiệu tương tự sang tín hiệu số và\nngược lại dùng ADC và DAC. Hai tín hiệu này được xử\nlý để điều khiển cơ cấu chấp hành trong hệ thống tự\nđộng thông qua module của bộ điều khiển tương ứng.\n39\nModule Chuyển Đổi ADC DAC PCF8591",
+        "metadata": {
+          "section": "2.3 Chuyển đổi ADC, DAC",
+          "start_char": 0,
+          "end_char": 272
+        },
+        "score": 0.03128054740957967,
+        "strategy": "rrf",
+        "hit": false
+      },
+      {
+        "id": "SENSOR001_p40_paragraph_tokens_48ab432c8ce49b25_0_330",
+        "source_id": "SENSOR001",
+        "source": "starter/data/documents.pdf",
+        "page": 40,
+        "text": "2.4. THU THẬP VÀ XỬ LÝ DỮ LIỆU CẢM BIẾN\n Xử lý dữ liệu (data processing) là quá trình tiếp nhận,\nbiến đổi và tổ chức dữ liệu thành thông tin hữu ích để\nthực hiện các tác vụ hoặc ra quyết định.\n Quá trình này có thể bao gồm một loạt các bước và\nphương pháp để làm cho dữ liệu trở nên có ý nghĩa và\nhữu ích cho mục đích cụ thể.\n40",
+        "metadata": {
+          "section": "2.4 Thu thập và xử lý dữ liệu cảm biến",
+          "start_char": 0,
+          "end_char": 330
+        },
+        "score": 0.030834914611005692,
+        "strategy": "rrf",
+        "hit": false
+      }
+    ],
+    "context": "[SENSOR001_p37_paragraph_tokens_3d3e70d04289bb51_0_308 | starter/data/documents.pdf | page 37]\n2.3. CHUYỂN ĐỔI ADC, DAC\n Quá trình chuyển đổi ADC gồm ba bước chính: lấy mẫu, lượng tử\nhóa, mã hóa.\n ADC được ứng dụng rộng rãi trong các thiết bị IoT như: cảm biến\nnhiệt độ, độ ẩm, ánh sáng trong nông nghiệp thông minh; hệ thống\ngiám sát môi trường; thiết bị y tế như máy đo nhịp tim, điện tâm đồ,\n...\n37\n\n[SENSOR001_p39_paragraph_tokens_1393ec75cf0b4ee8_0_272 | starter/data/documents.pdf | page 39]\n2.3. CHUYỂN ĐỔI ADC, DAC\n Việc chuyển đổi tín hiệu tương tự sang tín hiệu số và\nngược lại dùng ADC và DAC. Hai tín hiệu này được xử\nlý để điều khiển cơ cấu chấp hành trong hệ thống tự\nđộng thông qua module của bộ điều khiển tương ứng.\n39\nModule Chuyển Đổi ADC DAC PCF8591\n\n[SENSOR001_p40_paragraph_tokens_48ab432c8ce49b25_0_330 | starter/data/documents.pdf | page 40]\n2.4. THU THẬP VÀ XỬ LÝ DỮ LIỆU CẢM BIẾN\n Xử lý dữ liệu (data processing) là quá trình tiếp nhận,\nbiến đổi và tổ chức dữ liệu thành thông tin hữu ích để\nthực hiện các tác vụ hoặc ra quyết định.\n Quá trình này có thể bao gồm một loạt các bước và\nphương pháp để làm cho dữ liệu trở nên có ý nghĩa và\nhữu ích cho mục đích cụ thể.\n40",
+    "context_ids": [
+      "SENSOR001_p37_paragraph_tokens_3d3e70d04289bb51_0_308",
+      "SENSOR001_p39_paragraph_tokens_1393ec75cf0b4ee8_0_272",
+      "SENSOR001_p40_paragraph_tokens_48ab432c8ce49b25_0_330"
+    ],
+    "context_chars": 1199,
+    "elapsed_ms": 36.674700008006766,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "SQ19",
+    "split": "test",
+    "question": "Lọc dữ liệu loại bỏ những dữ liệu nào?",
+    "strategy": "rrf",
+    "top_k": 3,
+    "budget_chars": 3200,
+    "gold": [
+      {
+        "source_id": "SENSOR001",
+        "page": 45,
+        "evidence": "Loại bỏ dữ liệu không chính xác, không cần thiết hoặc lặp lại"
+      }
+    ],
+    "results": [
+      {
+        "id": "SENSOR001_p45_paragraph_tokens_20738e278468fd5c_0_366",
+        "source_id": "SENSOR001",
+        "source": "starter/data/documents.pdf",
+        "page": 45,
+        "text": "QUÁ TRÌNH XỬ LÝ DỮ LIỆU\n45\n1. Thu thập dữ liệu:\nThu thập dữ liệu từ các nguồn khác nhau như máy móc, cảm biến,\nhệ thống thông tin, hệ thống giao dịch, mạng xã hội, và nhiều\nnguồn dữ liệu khác.\n2. Lọc dữ liệu:\nLoại bỏ dữ liệu không chính xác, không cần thiết hoặc lặp lại.\n3. Biến đổi dữ liệu:\nChuyển đổi dữ liệu ban đầu thành định dạng phù hợp để dễ dàng\nphân tích. ",
+        "metadata": {
+          "section": "2.4 Thu thập và xử lý dữ liệu cảm biến",
+          "start_char": 0,
+          "end_char": 366
+        },
+        "score": 0.03252247488101534,
+        "strategy": "rrf",
+        "hit": true
+      },
+      {
+        "id": "SENSOR001_p44_paragraph_tokens_9d14322380b1164e_0_146",
+        "source_id": "SENSOR001",
+        "source": "starter/data/documents.pdf",
+        "page": 44,
+        "text": "QUÁ TRÌNH XỬ LÝ DỮ LIỆU\n44\n1. Thu thập\ndữ liệu\n2. Lọc dữ\nliệu:\n3. Biến đổi\ndữ liệu\n4. Tổ chức\nvà lưu trữ\n5. Phân tích\ndữ liệu\n6. Trình bày\nkết quả",
+        "metadata": {
+          "section": "2.4 Thu thập và xử lý dữ liệu cảm biến",
+          "start_char": 0,
+          "end_char": 146
+        },
+        "score": 0.031746031746031744,
+        "strategy": "rrf",
+        "hit": false
+      },
+      {
+        "id": "SENSOR001_p47_paragraph_tokens_fddaca6d6ecdf06e_0_241",
+        "source_id": "SENSOR001",
+        "source": "starter/data/documents.pdf",
+        "page": 47,
+        "text": "2.5. CÁC GIẢI THUẬT XỬ LÝ DỮ LIỆU\n Tiền xử lý dữ liệu cảm biến\n Lọc nhiễu (Noise Filtering): Sử dụng các bộ lọc để loại bỏ\nnhiễu khỏi dữ liệu cảm biến.\n Chuẩn hóa dữ liệu (Normalization): Đưa dữ liệu về cùng\nmột thang đo để dễ phân tích.\n",
+        "metadata": {
+          "section": "2.5 Các giải thuật xử lý dữ liệu",
+          "start_char": 0,
+          "end_char": 241
+        },
+        "score": 0.03131881575727918,
+        "strategy": "rrf",
+        "hit": false
+      }
+    ],
+    "context": "[SENSOR001_p45_paragraph_tokens_20738e278468fd5c_0_366 | starter/data/documents.pdf | page 45]\nQUÁ TRÌNH XỬ LÝ DỮ LIỆU\n45\n1. Thu thập dữ liệu:\nThu thập dữ liệu từ các nguồn khác nhau như máy móc, cảm biến,\nhệ thống thông tin, hệ thống giao dịch, mạng xã hội, và nhiều\nnguồn dữ liệu khác.\n2. Lọc dữ liệu:\nLoại bỏ dữ liệu không chính xác, không cần thiết hoặc lặp lại.\n3. Biến đổi dữ liệu:\nChuyển đổi dữ liệu ban đầu thành định dạng phù hợp để dễ dàng\nphân tích. \n\n[SENSOR001_p44_paragraph_tokens_9d14322380b1164e_0_146 | starter/data/documents.pdf | page 44]\nQUÁ TRÌNH XỬ LÝ DỮ LIỆU\n44\n1. Thu thập\ndữ liệu\n2. Lọc dữ\nliệu:\n3. Biến đổi\ndữ liệu\n4. Tổ chức\nvà lưu trữ\n5. Phân tích\ndữ liệu\n6. Trình bày\nkết quả\n\n[SENSOR001_p47_paragraph_tokens_fddaca6d6ecdf06e_0_241 | starter/data/documents.pdf | page 47]\n2.5. CÁC GIẢI THUẬT XỬ LÝ DỮ LIỆU\n Tiền xử lý dữ liệu cảm biến\n Lọc nhiễu (Noise Filtering): Sử dụng các bộ lọc để loại bỏ\nnhiễu khỏi dữ liệu cảm biến.\n Chuẩn hóa dữ liệu (Normalization): Đưa dữ liệu về cùng\nmột thang đo để dễ phân tích.\n",
+    "context_ids": [
+      "SENSOR001_p45_paragraph_tokens_20738e278468fd5c_0_366",
+      "SENSOR001_p44_paragraph_tokens_9d14322380b1164e_0_146",
+      "SENSOR001_p47_paragraph_tokens_fddaca6d6ecdf06e_0_241"
+    ],
+    "context_chars": 1042,
+    "elapsed_ms": 31.781600002432242,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "SQ20",
+    "split": "test",
+    "question": "Trong phần các giải thuật xử lý dữ liệu, chuẩn hóa dữ liệu là gì?",
+    "strategy": "rrf",
+    "top_k": 3,
+    "budget_chars": 3200,
+    "gold": [
+      {
+        "source_id": "SENSOR001",
+        "page": 47,
+        "evidence": "Đưa dữ liệu về cùng\nmột thang đo để dễ phân tích"
+      }
+    ],
+    "results": [
+      {
+        "id": "SENSOR001_p40_paragraph_tokens_48ab432c8ce49b25_0_330",
+        "source_id": "SENSOR001",
+        "source": "starter/data/documents.pdf",
+        "page": 40,
+        "text": "2.4. THU THẬP VÀ XỬ LÝ DỮ LIỆU CẢM BIẾN\n Xử lý dữ liệu (data processing) là quá trình tiếp nhận,\nbiến đổi và tổ chức dữ liệu thành thông tin hữu ích để\nthực hiện các tác vụ hoặc ra quyết định.\n Quá trình này có thể bao gồm một loạt các bước và\nphương pháp để làm cho dữ liệu trở nên có ý nghĩa và\nhữu ích cho mục đích cụ thể.\n40",
+        "metadata": {
+          "section": "2.4 Thu thập và xử lý dữ liệu cảm biến",
+          "start_char": 0,
+          "end_char": 330
+        },
+        "score": 0.03131881575727918,
+        "strategy": "rrf",
+        "hit": false
+      },
+      {
+        "id": "SENSOR001_p46_paragraph_tokens_402b8910e8bd4779_0_421",
+        "source_id": "SENSOR001",
+        "source": "starter/data/documents.pdf",
+        "page": 46,
+        "text": "QUÁ TRÌNH XỬ LÝ DỮ LIỆU\n46\n4. Tổ chức và lưu trữ:\nSắp xếp và lưu trữ dữ liệu theo một cách có tổ chức để dễ dàng truy\ncập và tìm kiếm. Dữ liệu có thể được lưu trữ trong cơ sở dữ liệu, hệ\nthống tập tin hoặc lưu trữ đám mây.\n5. Phân tích dữ liệu:\nÁp dụng các kỹ thuật và công cụ phân tích để tìm kiếm mẫu, xu\nhướng và thông tin hữu ích từ dữ liệu. Phân tích dữ liệu có thể bao\ngồm thống kê, khai phá dữ liệu, học máy...\n6. ",
+        "metadata": {
+          "section": "2.4 Thu thập và xử lý dữ liệu cảm biến",
+          "start_char": 0,
+          "end_char": 421
+        },
+        "score": 0.03125763125763126,
+        "strategy": "rrf",
+        "hit": false
+      },
+      {
+        "id": "SENSOR001_p47_paragraph_tokens_fddaca6d6ecdf06e_0_241",
+        "source_id": "SENSOR001",
+        "source": "starter/data/documents.pdf",
+        "page": 47,
+        "text": "2.5. CÁC GIẢI THUẬT XỬ LÝ DỮ LIỆU\n Tiền xử lý dữ liệu cảm biến\n Lọc nhiễu (Noise Filtering): Sử dụng các bộ lọc để loại bỏ\nnhiễu khỏi dữ liệu cảm biến.\n Chuẩn hóa dữ liệu (Normalization): Đưa dữ liệu về cùng\nmột thang đo để dễ phân tích.\n",
+        "metadata": {
+          "section": "2.5 Các giải thuật xử lý dữ liệu",
+          "start_char": 0,
+          "end_char": 241
+        },
+        "score": 0.031099324975891997,
+        "strategy": "rrf",
+        "hit": true
+      }
+    ],
+    "context": "[SENSOR001_p40_paragraph_tokens_48ab432c8ce49b25_0_330 | starter/data/documents.pdf | page 40]\n2.4. THU THẬP VÀ XỬ LÝ DỮ LIỆU CẢM BIẾN\n Xử lý dữ liệu (data processing) là quá trình tiếp nhận,\nbiến đổi và tổ chức dữ liệu thành thông tin hữu ích để\nthực hiện các tác vụ hoặc ra quyết định.\n Quá trình này có thể bao gồm một loạt các bước và\nphương pháp để làm cho dữ liệu trở nên có ý nghĩa và\nhữu ích cho mục đích cụ thể.\n40\n\n[SENSOR001_p46_paragraph_tokens_402b8910e8bd4779_0_421 | starter/data/documents.pdf | page 46]\nQUÁ TRÌNH XỬ LÝ DỮ LIỆU\n46\n4. Tổ chức và lưu trữ:\nSắp xếp và lưu trữ dữ liệu theo một cách có tổ chức để dễ dàng truy\ncập và tìm kiếm. Dữ liệu có thể được lưu trữ trong cơ sở dữ liệu, hệ\nthống tập tin hoặc lưu trữ đám mây.\n5. Phân tích dữ liệu:\nÁp dụng các kỹ thuật và công cụ phân tích để tìm kiếm mẫu, xu\nhướng và thông tin hữu ích từ dữ liệu. Phân tích dữ liệu có thể bao\ngồm thống kê, khai phá dữ liệu, học máy...\n6. \n\n[SENSOR001_p47_paragraph_tokens_fddaca6d6ecdf06e_0_241 | starter/data/documents.pdf | page 47]\n2.5. CÁC GIẢI THUẬT XỬ LÝ DỮ LIỆU\n Tiền xử lý dữ liệu cảm biến\n Lọc nhiễu (Noise Filtering): Sử dụng các bộ lọc để loại bỏ\nnhiễu khỏi dữ liệu cảm biến.\n Chuẩn hóa dữ liệu (Normalization): Đưa dữ liệu về cùng\nmột thang đo để dễ phân tích.\n",
+    "context_ids": [
+      "SENSOR001_p40_paragraph_tokens_48ab432c8ce49b25_0_330",
+      "SENSOR001_p46_paragraph_tokens_402b8910e8bd4779_0_421",
+      "SENSOR001_p47_paragraph_tokens_fddaca6d6ecdf06e_0_241"
+    ],
+    "context_chars": 1281,
+    "elapsed_ms": 33.46050000982359,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  }
+]

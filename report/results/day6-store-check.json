@@ -1,0 +1,552 @@
+[
+  {
+    "split": "dev",
+    "config": "dense",
+    "query_id": "SQ01",
+    "top3": [
+      "SENSOR001_p5_paragraph_tokens_4c8ce06015749755_0_410",
+      "SENSOR001_p36_paragraph_tokens_3d2493897d766e7a_0_342",
+      "SENSOR001_p33_paragraph_tokens_32ad3e57d059ef63_243_422"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "dense",
+    "query_id": "SQ02",
+    "top3": [
+      "SENSOR001_p23_paragraph_tokens_942e8565d9fe5f59_0_191",
+      "SENSOR001_p47_paragraph_tokens_fddaca6d6ecdf06e_0_241",
+      "SENSOR001_p32_paragraph_tokens_7c0be7de85eb8802_245_529"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "dense",
+    "query_id": "SQ03",
+    "top3": [
+      "SENSOR001_p19_paragraph_tokens_9000bdad21fd3cce_0_104",
+      "SENSOR001_p14_paragraph_tokens_0fd84f911bf6906f_0_213",
+      "SENSOR001_p32_paragraph_tokens_7c0be7de85eb8802_0_245"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "dense",
+    "query_id": "SQ04",
+    "top3": [
+      "SENSOR001_p32_paragraph_tokens_7c0be7de85eb8802_0_245",
+      "SENSOR001_p5_paragraph_tokens_4c8ce06015749755_0_410",
+      "SENSOR001_p14_paragraph_tokens_0fd84f911bf6906f_0_213"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "dense",
+    "query_id": "SQ05",
+    "top3": [
+      "SENSOR001_p20_paragraph_tokens_bdafb7baa0a80aeb_0_297",
+      "SENSOR001_p14_paragraph_tokens_0fd84f911bf6906f_0_213",
+      "SENSOR001_p21_paragraph_tokens_44887168b97df5af_0_386"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "dense",
+    "query_id": "SQ06",
+    "top3": [
+      "SENSOR001_p24_paragraph_tokens_ef44a94c4843f56b_463_553",
+      "SENSOR001_p24_paragraph_tokens_ef44a94c4843f56b_0_463",
+      "SENSOR001_p23_paragraph_tokens_942e8565d9fe5f59_0_191"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "dense",
+    "query_id": "SQ07",
+    "top3": [
+      "SENSOR001_p25_paragraph_tokens_7ddd86bb7028d63e_0_414",
+      "SENSOR001_p27_paragraph_tokens_c5b11264a732fd75_0_179",
+      "SENSOR001_p32_paragraph_tokens_7c0be7de85eb8802_0_245"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "dense",
+    "query_id": "SQ08",
+    "top3": [
+      "SENSOR001_p26_paragraph_tokens_72fe9230df2f945b_0_266",
+      "SENSOR001_p28_paragraph_tokens_170b519fc325a55c_0_273",
+      "SENSOR001_p23_paragraph_tokens_942e8565d9fe5f59_0_191"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "dense",
+    "query_id": "SQ09",
+    "top3": [
+      "SENSOR001_p27_paragraph_tokens_c5b11264a732fd75_0_179",
+      "SENSOR001_p31_paragraph_tokens_363e97318352be38_0_336",
+      "SENSOR001_p5_paragraph_tokens_4c8ce06015749755_0_410"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "dense",
+    "query_id": "SQ10",
+    "top3": [
+      "SENSOR001_p28_paragraph_tokens_170b519fc325a55c_0_273",
+      "SENSOR001_p25_paragraph_tokens_7ddd86bb7028d63e_0_414",
+      "SENSOR001_p31_paragraph_tokens_363e97318352be38_0_336"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "dense",
+    "query_id": "SQ11",
+    "top3": [
+      "SENSOR001_p29_paragraph_tokens_b355f3a2ef9159a4_0_367",
+      "SENSOR001_p28_paragraph_tokens_170b519fc325a55c_0_273",
+      "SENSOR001_p26_paragraph_tokens_72fe9230df2f945b_0_266"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "dense",
+    "query_id": "SQ12",
+    "top3": [
+      "SENSOR001_p30_paragraph_tokens_eadefc7c2115dc68_0_405",
+      "SENSOR001_p27_paragraph_tokens_c5b11264a732fd75_0_179",
+      "SENSOR001_p32_paragraph_tokens_7c0be7de85eb8802_0_245"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "dense",
+    "query_id": "SQ13",
+    "top3": [
+      "SENSOR001_p31_paragraph_tokens_363e97318352be38_0_336",
+      "SENSOR001_p33_paragraph_tokens_32ad3e57d059ef63_0_243",
+      "SENSOR001_p19_paragraph_tokens_9000bdad21fd3cce_0_104"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "dense",
+    "query_id": "SQ14",
+    "top3": [
+      "SENSOR001_p32_paragraph_tokens_7c0be7de85eb8802_0_245",
+      "SENSOR001_p34_paragraph_tokens_88af4db95038d4b2_0_345",
+      "SENSOR001_p14_paragraph_tokens_0fd84f911bf6906f_0_213"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "dense",
+    "query_id": "SQ15",
+    "top3": [
+      "SENSOR001_p33_paragraph_tokens_32ad3e57d059ef63_243_422",
+      "SENSOR001_p33_paragraph_tokens_32ad3e57d059ef63_0_243",
+      "SENSOR001_p34_paragraph_tokens_88af4db95038d4b2_0_345"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf",
+    "query_id": "SQ01",
+    "top3": [
+      "SENSOR001_p5_paragraph_tokens_4c8ce06015749755_0_410",
+      "SENSOR001_p36_paragraph_tokens_3d2493897d766e7a_0_342",
+      "SENSOR001_p14_paragraph_tokens_0fd84f911bf6906f_0_213"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf",
+    "query_id": "SQ02",
+    "top3": [
+      "SENSOR001_p47_paragraph_tokens_fddaca6d6ecdf06e_0_241",
+      "SENSOR001_p19_paragraph_tokens_9000bdad21fd3cce_0_104",
+      "SENSOR001_p32_paragraph_tokens_7c0be7de85eb8802_245_529"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf",
+    "query_id": "SQ03",
+    "top3": [
+      "SENSOR001_p19_paragraph_tokens_9000bdad21fd3cce_0_104",
+      "SENSOR001_p14_paragraph_tokens_0fd84f911bf6906f_0_213",
+      "SENSOR001_p33_paragraph_tokens_32ad3e57d059ef63_0_243"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf",
+    "query_id": "SQ04",
+    "top3": [
+      "SENSOR001_p5_paragraph_tokens_4c8ce06015749755_0_410",
+      "SENSOR001_p34_paragraph_tokens_88af4db95038d4b2_0_345",
+      "SENSOR001_p20_paragraph_tokens_bdafb7baa0a80aeb_0_297"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf",
+    "query_id": "SQ05",
+    "top3": [
+      "SENSOR001_p20_paragraph_tokens_bdafb7baa0a80aeb_0_297",
+      "SENSOR001_p21_paragraph_tokens_44887168b97df5af_0_386",
+      "SENSOR001_p14_paragraph_tokens_0fd84f911bf6906f_0_213"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf",
+    "query_id": "SQ06",
+    "top3": [
+      "SENSOR001_p24_paragraph_tokens_ef44a94c4843f56b_0_463",
+      "SENSOR001_p33_paragraph_tokens_32ad3e57d059ef63_243_422",
+      "SENSOR001_p26_paragraph_tokens_72fe9230df2f945b_0_266"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf",
+    "query_id": "SQ07",
+    "top3": [
+      "SENSOR001_p25_paragraph_tokens_7ddd86bb7028d63e_0_414",
+      "SENSOR001_p27_paragraph_tokens_c5b11264a732fd75_0_179",
+      "SENSOR001_p23_paragraph_tokens_942e8565d9fe5f59_0_191"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf",
+    "query_id": "SQ08",
+    "top3": [
+      "SENSOR001_p26_paragraph_tokens_72fe9230df2f945b_0_266",
+      "SENSOR001_p23_paragraph_tokens_942e8565d9fe5f59_0_191",
+      "SENSOR001_p28_paragraph_tokens_170b519fc325a55c_0_273"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf",
+    "query_id": "SQ09",
+    "top3": [
+      "SENSOR001_p27_paragraph_tokens_c5b11264a732fd75_0_179",
+      "SENSOR001_p31_paragraph_tokens_363e97318352be38_0_336",
+      "SENSOR001_p5_paragraph_tokens_4c8ce06015749755_0_410"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf",
+    "query_id": "SQ10",
+    "top3": [
+      "SENSOR001_p28_paragraph_tokens_170b519fc325a55c_0_273",
+      "SENSOR001_p25_paragraph_tokens_7ddd86bb7028d63e_0_414",
+      "SENSOR001_p26_paragraph_tokens_72fe9230df2f945b_0_266"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf",
+    "query_id": "SQ11",
+    "top3": [
+      "SENSOR001_p29_paragraph_tokens_b355f3a2ef9159a4_0_367",
+      "SENSOR001_p25_paragraph_tokens_7ddd86bb7028d63e_0_414",
+      "SENSOR001_p28_paragraph_tokens_170b519fc325a55c_0_273"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf",
+    "query_id": "SQ12",
+    "top3": [
+      "SENSOR001_p30_paragraph_tokens_eadefc7c2115dc68_0_405",
+      "SENSOR001_p27_paragraph_tokens_c5b11264a732fd75_0_179",
+      "SENSOR001_p24_paragraph_tokens_ef44a94c4843f56b_0_463"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf",
+    "query_id": "SQ13",
+    "top3": [
+      "SENSOR001_p31_paragraph_tokens_363e97318352be38_0_336",
+      "SENSOR001_p23_paragraph_tokens_942e8565d9fe5f59_0_191",
+      "SENSOR001_p33_paragraph_tokens_32ad3e57d059ef63_0_243"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf",
+    "query_id": "SQ14",
+    "top3": [
+      "SENSOR001_p32_paragraph_tokens_7c0be7de85eb8802_0_245",
+      "SENSOR001_p34_paragraph_tokens_88af4db95038d4b2_0_345",
+      "SENSOR001_p32_paragraph_tokens_7c0be7de85eb8802_245_529"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf",
+    "query_id": "SQ15",
+    "top3": [
+      "SENSOR001_p33_paragraph_tokens_32ad3e57d059ef63_243_422",
+      "SENSOR001_p33_paragraph_tokens_32ad3e57d059ef63_0_243",
+      "SENSOR001_p32_paragraph_tokens_7c0be7de85eb8802_245_529"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf-wide",
+    "query_id": "SQ01",
+    "top3": [
+      "SENSOR001_p5_paragraph_tokens_4c8ce06015749755_0_410",
+      "SENSOR001_p36_paragraph_tokens_3d2493897d766e7a_0_342",
+      "SENSOR001_p14_paragraph_tokens_0fd84f911bf6906f_0_213"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf-wide",
+    "query_id": "SQ02",
+    "top3": [
+      "SENSOR001_p47_paragraph_tokens_fddaca6d6ecdf06e_0_241",
+      "SENSOR001_p19_paragraph_tokens_9000bdad21fd3cce_0_104",
+      "SENSOR001_p32_paragraph_tokens_7c0be7de85eb8802_245_529"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf-wide",
+    "query_id": "SQ03",
+    "top3": [
+      "SENSOR001_p19_paragraph_tokens_9000bdad21fd3cce_0_104",
+      "SENSOR001_p14_paragraph_tokens_0fd84f911bf6906f_0_213",
+      "SENSOR001_p33_paragraph_tokens_32ad3e57d059ef63_0_243"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf-wide",
+    "query_id": "SQ04",
+    "top3": [
+      "SENSOR001_p5_paragraph_tokens_4c8ce06015749755_0_410",
+      "SENSOR001_p34_paragraph_tokens_88af4db95038d4b2_0_345",
+      "SENSOR001_p20_paragraph_tokens_bdafb7baa0a80aeb_0_297"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf-wide",
+    "query_id": "SQ05",
+    "top3": [
+      "SENSOR001_p20_paragraph_tokens_bdafb7baa0a80aeb_0_297",
+      "SENSOR001_p21_paragraph_tokens_44887168b97df5af_0_386",
+      "SENSOR001_p14_paragraph_tokens_0fd84f911bf6906f_0_213"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf-wide",
+    "query_id": "SQ06",
+    "top3": [
+      "SENSOR001_p24_paragraph_tokens_ef44a94c4843f56b_0_463",
+      "SENSOR001_p33_paragraph_tokens_32ad3e57d059ef63_243_422",
+      "SENSOR001_p26_paragraph_tokens_72fe9230df2f945b_0_266"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf-wide",
+    "query_id": "SQ07",
+    "top3": [
+      "SENSOR001_p25_paragraph_tokens_7ddd86bb7028d63e_0_414",
+      "SENSOR001_p27_paragraph_tokens_c5b11264a732fd75_0_179",
+      "SENSOR001_p23_paragraph_tokens_942e8565d9fe5f59_0_191"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf-wide",
+    "query_id": "SQ08",
+    "top3": [
+      "SENSOR001_p26_paragraph_tokens_72fe9230df2f945b_0_266",
+      "SENSOR001_p23_paragraph_tokens_942e8565d9fe5f59_0_191",
+      "SENSOR001_p28_paragraph_tokens_170b519fc325a55c_0_273"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf-wide",
+    "query_id": "SQ09",
+    "top3": [
+      "SENSOR001_p27_paragraph_tokens_c5b11264a732fd75_0_179",
+      "SENSOR001_p31_paragraph_tokens_363e97318352be38_0_336",
+      "SENSOR001_p5_paragraph_tokens_4c8ce06015749755_0_410"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf-wide",
+    "query_id": "SQ10",
+    "top3": [
+      "SENSOR001_p28_paragraph_tokens_170b519fc325a55c_0_273",
+      "SENSOR001_p25_paragraph_tokens_7ddd86bb7028d63e_0_414",
+      "SENSOR001_p26_paragraph_tokens_72fe9230df2f945b_0_266"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf-wide",
+    "query_id": "SQ11",
+    "top3": [
+      "SENSOR001_p29_paragraph_tokens_b355f3a2ef9159a4_0_367",
+      "SENSOR001_p25_paragraph_tokens_7ddd86bb7028d63e_0_414",
+      "SENSOR001_p28_paragraph_tokens_170b519fc325a55c_0_273"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf-wide",
+    "query_id": "SQ12",
+    "top3": [
+      "SENSOR001_p30_paragraph_tokens_eadefc7c2115dc68_0_405",
+      "SENSOR001_p27_paragraph_tokens_c5b11264a732fd75_0_179",
+      "SENSOR001_p24_paragraph_tokens_ef44a94c4843f56b_0_463"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf-wide",
+    "query_id": "SQ13",
+    "top3": [
+      "SENSOR001_p31_paragraph_tokens_363e97318352be38_0_336",
+      "SENSOR001_p23_paragraph_tokens_942e8565d9fe5f59_0_191",
+      "SENSOR001_p33_paragraph_tokens_32ad3e57d059ef63_0_243"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf-wide",
+    "query_id": "SQ14",
+    "top3": [
+      "SENSOR001_p32_paragraph_tokens_7c0be7de85eb8802_0_245",
+      "SENSOR001_p34_paragraph_tokens_88af4db95038d4b2_0_345",
+      "SENSOR001_p32_paragraph_tokens_7c0be7de85eb8802_245_529"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "dev",
+    "config": "rrf-wide",
+    "query_id": "SQ15",
+    "top3": [
+      "SENSOR001_p33_paragraph_tokens_32ad3e57d059ef63_243_422",
+      "SENSOR001_p33_paragraph_tokens_32ad3e57d059ef63_0_243",
+      "SENSOR001_p32_paragraph_tokens_7c0be7de85eb8802_245_529"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "test",
+    "config": "rrf-wide",
+    "query_id": "SQ16",
+    "top3": [
+      "SENSOR001_p34_paragraph_tokens_88af4db95038d4b2_0_345",
+      "SENSOR001_p36_paragraph_tokens_3d2493897d766e7a_0_342",
+      "SENSOR001_p39_paragraph_tokens_1393ec75cf0b4ee8_0_272"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "test",
+    "config": "rrf-wide",
+    "query_id": "SQ17",
+    "top3": [
+      "SENSOR001_p39_paragraph_tokens_1393ec75cf0b4ee8_0_272",
+      "SENSOR001_p36_paragraph_tokens_3d2493897d766e7a_0_342",
+      "SENSOR001_p36_paragraph_tokens_3d2493897d766e7a_342_504"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "test",
+    "config": "rrf-wide",
+    "query_id": "SQ18",
+    "top3": [
+      "SENSOR001_p37_paragraph_tokens_3d3e70d04289bb51_0_308",
+      "SENSOR001_p39_paragraph_tokens_1393ec75cf0b4ee8_0_272",
+      "SENSOR001_p40_paragraph_tokens_48ab432c8ce49b25_0_330"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "test",
+    "config": "rrf-wide",
+    "query_id": "SQ19",
+    "top3": [
+      "SENSOR001_p45_paragraph_tokens_20738e278468fd5c_0_366",
+      "SENSOR001_p44_paragraph_tokens_9d14322380b1164e_0_146",
+      "SENSOR001_p47_paragraph_tokens_fddaca6d6ecdf06e_0_241"
+    ],
+    "same_top3": true
+  },
+  {
+    "split": "test",
+    "config": "rrf-wide",
+    "query_id": "SQ20",
+    "top3": [
+      "SENSOR001_p40_paragraph_tokens_48ab432c8ce49b25_0_330",
+      "SENSOR001_p46_paragraph_tokens_402b8910e8bd4779_0_421",
+      "SENSOR001_p47_paragraph_tokens_fddaca6d6ecdf06e_0_241"
+    ],
+    "same_top3": true
+  }
+]

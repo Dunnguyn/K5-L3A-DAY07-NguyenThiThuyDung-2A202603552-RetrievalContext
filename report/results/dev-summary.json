@@ -1,0 +1,44 @@
+{
+  "tfidf": {
+    "hit1": 13,
+    "hit3": 14,
+    "context_hit": 13,
+    "n": 15,
+    "median_ms": 0.37570000858977437
+  },
+  "bm25": {
+    "hit1": 13,
+    "hit3": 13,
+    "context_hit": 13,
+    "n": 15,
+    "median_ms": 0.41909998981282115
+  },
+  "dense": {
+    "hit1": 10,
+    "hit3": 12,
+    "context_hit": 11,
+    "n": 15,
+    "median_ms": 48.09679999016225
+  },
+  "rrf": {
+    "hit1": 11,
+    "hit3": 14,
+    "context_hit": 11,
+    "n": 15,
+    "median_ms": 55.07970001781359
+  },
+  "rrf-wide": {
+    "hit1": 11,
+    "hit3": 14,
+    "context_hit": 14,
+    "n": 15,
+    "median_ms": 58.04070000885986
+  },
+  "bm25-wide": {
+    "hit1": 13,
+    "hit3": 13,
+    "context_hit": 13,
+    "n": 15,
+    "median_ms": 0.42490000487305224
+  }
+}

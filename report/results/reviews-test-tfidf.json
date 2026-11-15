@@ -1,0 +1,46 @@
+[
+  {
+    "query_id": "SQ16",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Từ chối dù corpus có đáp án: Ổn định và chính xác."
+  },
+  {
+    "query_id": "SQ17",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Từ chối dù corpus có đáp án: Từ tín hiệu tương tự sang tín hiệu số."
+  },
+  {
+    "query_id": "SQ18",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đoạn được dẫn xác nhận: Lấy mẫu, lượng tử hóa và mã hóa."
+  },
+  {
+    "query_id": "SQ19",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Từ chối dù corpus có đáp án: Dữ liệu không chính xác, không cần thiết hoặc lặp lại."
+  },
+  {
+    "query_id": "SQ20",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Từ chối dù corpus có đáp án: Đưa dữ liệu về cùng một thang đo để dễ phân tích."
+  },
+  {
+    "query_id": "SQ_UNANS_TEST_01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Từ chối rõ ràng và không thêm khẳng định thiếu căn cứ."
+  },
+  {
+    "query_id": "SQ_UNANS_TEST_02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Từ chối rõ ràng và không thêm khẳng định thiếu căn cứ."
+  }
+]
